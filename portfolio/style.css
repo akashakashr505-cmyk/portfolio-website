@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 15px 30px;
+}
+
+.logo{
+    color: white;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li{
+    margin-left: 20px;
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.home{
+    text-align: center;
+    padding: 60px;
+    background-color: #f4f4f4;
+}
+
+.home button{
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    margin-top: 10px;
+}
+
+.about, .skills{
+    text-align: center;
+    padding: 40px;
+}
+
+.skill-box{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ddd;
+    margin: 10px;
+}
